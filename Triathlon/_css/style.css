@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+.index {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4682B4;
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #000080;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #dddddd8c;
+}
+
+.cabecalho {
+    background-color: #000080;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: #00FFFF;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Crie duas colunas/caixas que flutuam uma ao lado da outra */
+/**/
+.vertical-menu {
+    float: left;
+    width: 30%;
+    height: 300px;
+    background: #000080;
+    padding: 20px;
+}
+
+.vertical-menu a {
+    background-color: #000080;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #666;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #000080;
+    line-height: 30px;
+    color: white;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    background-color: #000080;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+aside {
+    flex-basis: 300px;
+    background-color: #000080;
+    padding: 20px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    color: white;
+}
+
+/* Style para o rodapé. */
+footer {
+    background-color: #000080;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+    /*Segunda Pagina*/
+
+    .natacao {
+     background-color: #4682B4;
+    }
+
+.cabecalhonat {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    color: #2b6b68;
+    background-color: #5578b8;
+}
+
+.textonat {
+    background-color: #4682B4;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.regranat {
+    text-align: left;
+}
+
+.listaregnat {
+    text-align: left;
+}
+
+.tecnnat {
+    text-align: left;
+}
+
+.listatecnat {
+    text-align: left;
+}
+
+.benefinat {
+    text-align: left;
+}
+
+.listabenenat {
+    text-align: left;
+}
+
+.curionat {
+    text-align: left;
+}
+
+.listacurionat {
+    text-align: left;
+}
+
+/* Terceira Pagina*/
+
+.ciclismo {
+    background-color: rgb(191, 191, 137);
+}
+
+.cabecalhociclis {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    color: rgb(94, 72, 72);
+    background-color: rgb(159, 159, 119);
+}
+
+.textociclis {
+    background-color: rgb(191, 191, 137);
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.regracicli {
+    text-align: left;
+}
+
+.listaregcicli {
+    text-align: left;
+}
+
+.beneficicli {
+    text-align: left;
+}
+
+.listabenecicli {
+    text-align: left;
+}
+
+.curiocicli {
+    text-align: left;
+}
+
+.listacuricicli {
+    text-align: left;
+}
+
+/* Quarta Pagina */
+
+
+.corrida {
+    background-color: #dddddd8c;
+}
+
+.cabecalhocorrid {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    color: rgb(159, 144, 144);
+    background-color: #dddddd8c;
+}
+
+.textocorrid {
+    background-color: #dddddd8c;;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.regracorrid {
+    text-align: left;
+}
+
+.listaregcorrid {
+    text-align: left;
+}
+
+.beneficicorrid {
+    text-align: left;
+}
+
+.listabeneficicorrid {
+    text-align: left;
+}
+
+.curiocorrid {
+    text-align: left;
+}
+
+.listacorrid {
+    text-align: left;
+}
+
+/* Quinta Pagina */
+
+
+
+
+
+
+
+/*Sexta Pagina */
+
+.competidores {
+    background-color: #00FFFF;
+}
+
+.cabecalhocompet {
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.textocomp {
+    background-color: rgb(177, 42, 42);
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+
