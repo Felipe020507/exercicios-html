@@ -1,0 +1,32 @@
+@media (max-width: 700px) {
+    .container {
+          flex-direction: column;
+    }
+    
+    article, .vertical-menu {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+
+    h2{
+      flex-direction: column;
+    }
+    
+    aside {  
+      flex-basis: auto;
+      margin-top: 20px;
+   }
+   /* #animacao{ */
+    /* width: 15%; */
+    /* background-image: 5%; */
+   /* }  */
+  }
+
+  @media (max-width: 1900px) {
+    .video{
+      display: flex;
+      width: auto;
+     }
+}
+
